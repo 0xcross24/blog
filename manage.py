@@ -1,14 +1,9 @@
-<<<<<<< HEAD
-#!/usr/bin/env python
-=======
 #!/usr/bin/env python3
->>>>>>> 7e88efda4da329363e4b3c4565a61ee381ba6e4d
 import os
 import sys
 
 if __name__ == "__main__":
     os.environ.setdefault("DJANGO_SETTINGS_MODULE", "blog.settings")
-<<<<<<< HEAD
     try:
         from django.core.management import execute_from_command_line
     except ImportError:
@@ -24,9 +19,5 @@ if __name__ == "__main__":
                 "forget to activate a virtual environment?"
             )
         raise
-=======
 
-    from django.core.management import execute_from_command_line
-
->>>>>>> 7e88efda4da329363e4b3c4565a61ee381ba6e4d
     execute_from_command_line(sys.argv)
