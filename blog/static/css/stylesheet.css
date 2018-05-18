@@ -1,0 +1,73 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Gotham SSm',sans-serif;
+	background-image: url('/static/img/background.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+ul.navbar {
+	font-size: 16px;
+	padding: 0;
+	margin: 20px 0px;
+
+}
+
+ul.left {
+	float: left;
+}
+
+ul.right {
+	float: right;
+}
+
+ul.navbar li a{
+	display: inline-block;
+	padding: 20px;
+	font-weight: bold;
+	color: #ffffff;
+	text-decoration: none;
+
+}
+
+ul.navbar li {
+	list-style: none;
+}
+
+ul.navbar li#logo {
+	border: 1px solid #ffffff;
+
+}
+
+ul.navbar li a:hover {
+	border-bottom: 1px solid #ffffff;
+
+}
+
+ul.navbar li#logo a:hover {
+	background-color: #ffffff;
+	color: #000000;
+}
+
+div.block-content {
+	clear: both;
+}
+
+div.col-sm-5 {
+
+
+}
+
+div.block-content h1 {
+	font-size: 50px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #ccc;
+	letter-spacing: 10px;
+}
+
+div.block-content p {
+	color: #eee;
+	font-size: 16px;
+}
